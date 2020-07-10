@@ -10,9 +10,9 @@ class Song
     song = self.new
     song.name = name
     song.artist = artist_name
-    @@all << self
+    @@all << song
   end
-  
+
   def save
     self.class.all << self
   end
