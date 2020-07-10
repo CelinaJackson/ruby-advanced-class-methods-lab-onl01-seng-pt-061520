@@ -6,7 +6,7 @@ class Song
     @@all
   end
 
-  def create_by_name(name)
+  def self.create(name)
     song = self.new
     song.name = name
     song.artist = artist_name
