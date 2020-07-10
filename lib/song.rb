@@ -10,7 +10,7 @@ class Song
     song = self.new
     song.name = name
     song.artist = artist_name
-    @@all << song
+    @@all << self
   end
 
   def save
